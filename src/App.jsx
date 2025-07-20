@@ -64,6 +64,8 @@ function App() {
     }
   }
 
+
+
   const reset = () => {
     setInputs({
       url: "",
@@ -92,7 +94,19 @@ function App() {
       />
       <br></br>
 
+      {currentImage ? (
+        <img
+          className="screenshot"
+          src={currentImage}
+          alt="Screenshot returned"
+        />
+      ) : (
+        <div> </div>
+      )}
+
     </div>
+
+  
     
   )
 }
