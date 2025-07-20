@@ -1,14 +1,15 @@
-📸 **Screenshot Generator**
+# 📸 **Screenshot Generator**
+
 A simple React app that generates high-quality screenshots of websites using the ApiFlash API. Users can input a URL, customize parameters like format, resolution, and ads/cookie banner removal, then view and collect their screenshots in a gallery.
 
-🚀 **Features**
+## 🚀 **Features**
 - Submit a URL and get an instant screenshot
 
 - Customize query parameters (format, width, height, etc.)
 
 - View a gallery of all screenshots taken
 
-🛠 **Technologies Used**
+## 🛠 **Technologies Used**
 - React (Vite)
 
 - JavaScript (ES6+)
@@ -17,12 +18,12 @@ A simple React app that generates high-quality screenshots of websites using the
 
 - CSS
 
-**Video Walkthrough**
+## **Video Walkthrough**
 <img src='Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ScreenToGif
 
-📦 **Setup**
+## 📦 **Setup**
 - Clone the repo
 
 - Run npm install
