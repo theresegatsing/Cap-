@@ -4,7 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
-
+.quota {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  color: white;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
