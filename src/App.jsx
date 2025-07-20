@@ -2,6 +2,7 @@ import { useState } from 'react'
 //import viteLogo from '/vite.svg'
 import './App.css'
 import APIForm from './components/APIForm.jsx';
+import Gallery from './components/Gallery';
 
 const ACCESS_KEY = import.meta.env.VITE_APP_ACCESS_KEY;
 
@@ -125,6 +126,10 @@ function App() {
     ) : (
       <div> </div>
     )}
+
+    <div className='container'>
+      <Gallery images = {prevImages} />
+    </div>
   </div>
 );
 
